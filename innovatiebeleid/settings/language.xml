@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+   <language version="1.0" htmlParse="true">
+;
+
+        <!-- misc -->
+        <item id="btnContinue">Ga verder...</item>
+        <item id="btnclose">Sluiten</item>
+        <item id="btnHelp">Help mij!</item>
+        <item id="btnAgreement">Eens</item>
+        <item id="btnNeutral">Neutraal</item>
+        <item id="btnDisagreement">Oneens</item>
+        <item id="btnTransfer">Indienen</item>
+        <item id="btnExit">Sluiten</item>
+        <item id="selectItem">Selecteer alstublieft...</item>
+        
+        <!-- Warning when user is trying to leave the page (this item was added for HtmlQ) -->
+        <item id="leaveSiteWarning">Uw antwoorden zullen verloren gaan.</item>
+
+        <!-- HtmlQ only: In-App Back Button -->
+        <item id="backButton">Terug</item>
+        <item id="fillInRequiredFields">Gelieve alle verplichte velden in te vullen.</item>
+
+        <!-- errors -->
+        <item id="errorHead">Error!</item>
+        <item id="errorWindowTooSmall">Vergroot uw scherm voor gebruik van deze applicatie.</item>
+
+        <!-- welcome screen (leave blank to skip screen) -->
+        <item id="welcomeHead">Welkom!</item>
+        <item id="welcomeText">Hartelijk dank dat u wilt deelnemen aan dit onderzoek.</item>
+
+        <!-- user login, only displayed if access is restricted (see config-file) -->
+        <item id="loginHead">Access Code</item>
+        <item id="loginText">Please enter the access code for this survey.</item>
+        <item id="loginFormHeader">Access Code</item>
+        <item id="loginPartIdText">Your name or survey id number</item>
+        <item id="loginNoInput">Please insert the access code.</item>
+        <item id="loginInvalidInput">Access code invalid</item>
+        <item id="loginNoConnection">Connection to server failed. Please try again.</item>
+
+        <!-- introduction (leave blank to skip popup) -->
+        <item id="introHead">Introductie</item>
+        <item id="introText">U bent uitgenodigd om deel te nemen aan een onderzoek naar de perspectieven rond het ervaren van mobiliteitsarmoede in Nederland. Dit onderzoek wordt uitgevoerd door Koen van den Berg en Jorben van der Sar in het kader van het vak TB351D Bachelor Eindproject van de opleiding Technische Bestuurskunde aan de Technische Universiteit Delft.{br}{br}
+Het doel van dit onderzoek is om de perspectieven rond het ervaren van mobiliteitsarmoede in Nederland in kaart te brengen en het zal ongeveer 30 minuten duren om het in te vullen. De vragenlijst bestaat uit vijf delen. De delen 1 tot en met 4 hebben betrekking op het rangschikken van enkele stellingen en in deel 5 wordt u gevraagd om enkele vragen over uzelf te beantwoorden.{br}{br}
+Uw deelname aan dit onderzoek is geheel vrijwillig en u kunt zich op elk moment terugtrekken. Wij zijn van mening dat er geen bekende risico's verbonden zijn aan deze onderzoeksstudie; zoals bij elke online gerelateerde activiteit is het risico van een inbreuk echter altijd mogelijk. Uw antwoorden in dit onderzoek zullen zo goed mogelijk vertrouwelijk blijven en uitsluitend geanonimiseerd verwerkt worden.{br}{br}
+Alvast bedankt voor uw deelname!{br}{br}
+Vragen of opmerkingen kan u mailen naar K.C.vandenBerg@student.tudelft.nl of J.A.vanderSar@student.tudelft.nl</item>
+
+        <!-- step1: rough sorting into three piles (leave blank to skip popup)-->
+        <item id="step1Head">Stap 1 van 5</item>
+        <item id="step1Text">In deze stap krijgt u 40 stellingen over het ervaren van mobiliteitsarmoede in Nederland voorgelegd. U wordt gevraagd deze stellingen te rangschikken op basis van de mate waarin u het eens bent met de stellingen. Lees hierbij de stellingen nauwkeurig en verdeel ze in één van de volgende drie categorieën:{br}
+-	Stellingen waar u het mee oneens bent;{br}
+-	Stellingen waar u neutraal over bent;{br}
+-	Stellingen waar u het mee eens bent.{br}{br}
+U kunt de stellingen naar de gewenste categorie slepen of u kunt de toetsen 1, 2 of 3 gebruiken (Let op: mogelijk moet u de numlock op uw toetsenbord uitzetten om de toetsen 1, 2 of 3 te kunnen gebruiken).{br}{br}
+Let op! Sommige stelling zijn te lang om in één keer te kunnen lezen. Plaats deze dan in één van de categorieën, dan kunt u de stelling volledig lezen. Daarna kunt u de stelling nog naar een andere categorie verplaatsen.{br}{br}
+U kunt uw voorkeur later nog veranderen. Als u deze instructie nog een keer wilt lezen, druk dan op 'Help' rechtsonder in de hoek van uw beeldscherm. {br}{br}
+Als u de tekst van de introductie nog eens wilt lezen, klik dan op de knop 'Terug' linksonder in het scherm.{br}{br}
+</item>
+
+        <!-- step2: sorting (leave blank to skip popup) -->
+        <item id="step2Head">Stap 2 van 5</item>
+        <item id="step2Text">Neem de stellingen uit de categorie 'Eens' en lees ze nog een keer. U kunt door de stellingen heen scrollen door gebruik te maken van de ‘scroll’-balk. Selecteer vervolgens de stelling waar u het meest mee eens bent en plaats deze aan de rechterkant van de scorekaart onder '+5'.{br}{br}
+Lees daarna de stellingen in de categorie 'Oneens' nogmaals. Selecteer wederom de stelling waar u het meest mee oneens bent en plaats deze aan de linkerkant van de scorekaart onder '-5'. {br}{br}
+Selecteer vervolgens de stellingen waar u het daarna het meest mee eens/oneens bent en plaats deze onder '+4'/'-4'. Ga op deze manier door met het invullen van de stellingen aan de 'Oneens'- en 'Eens' zijdes van de scorekaart tot u alle stellingen hebt gerangschikt. {br}{br}
+Lees tenslotte de stellingen uit de categorie 'Neutraal' nogmaals. Leg de stellingen zo op de resterende vakken neer dat alle stellingen gerangschikt liggen van meest mee oneens (links) naar meest mee eens (rechts).{br}{br}
+Let op! Soms kunnen stellingen niet in zijn volledigheid gelezen worden. Houd de muis daarom op het kaartje totdat de stelling in zijn volledigheid in beeld komt. Zodra alle stellingen in een vakje zijn geplaatst, verschijnt er een 'Ga Verder...' knop in het scherm.{br}{br}
+</item>
+        <item id="step2CondOfInstruc">Sorteer de kaarten op basis van uw ervaring met betrekking tot mobiliteitsarmoede.</item>
+        
+        <!-- step3: check sorting, only displayed if showStep3== true (see config-file; leave blank to skip popup)-->
+        <item id="step3Head">Stap 3 van 5</item>
+        <item id="step3Text">U heeft nu alle stellingen op de scorekaart geplaatst. Bekijk uw verdeling nogmaals en verschuif of wissel stellingen eventueel nog.{br}{br}
+.</item>
+        <item id="step3CondOfInstruc">Sorteer de kaarten op basis van uw ervaring met betrekking tot mobiliteitsarmoede.</item>
+
+        <!-- step4: comments on best/worst rated statements, only displayed if showStep4== true (see config-file; leave blank to skip popup) -->
+        <item id="step4Head">Stap 4 van 5</item>
+        <item id="step4Text">Leg alstublieft in een paar zinnen uit waarom u het meest eens en oneens bent met de stelling onder de ‘+5’ en ‘-5’.</item>
+
+        <!-- step5: dditional questions, only displayed if showStep5== true (see config-file; leave blank to skip popup)-->
+        <item id="step5Head">Stap 5 van 5</item>
+        <item id="step5Text">In deze laatste stap volgen enkele vragen om meer te weten te komen over uw achtergrond.</item>
+
+        <!-- data transfer, only displayed if submitUrl is not blank (see config-file) -->
+        <item id="transferHead">Afronden vragenlijst</item>
+        <item id="transferText">U heeft de vragenlijst afgerond. Stuur uw antwoorden op.
+{br}{br} Wij danken u hartelijk voor uw deelname!
+</item>
+        <item id="transferFailed">Het indienen van de gegevens is mislukt. Probeer het opnieuw.</item>
+        <item id="transferOk">Bedankt voor het opsturen van uw antwoorden!</item>   
+   </language>

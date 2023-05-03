@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+   <config version="1.0" htmlParse="false">
+
+     <!-- title of the study -->
+     <item id="studyTitle">Een onderzoek naar de perspectieven rond het ervaren van mobiliteitsarmoede in Nederland</item>
+
+     <!-- text-align property(left|right) -->
+     <item id="textAlign">left</item>
+
+     <!-- shuffle cards (true|false)  -->
+     <item id="shuffleCards">true</item>
+
+     <!-- login required (true|false) -->
+     <item id="loginrequired">false</item>
+     <!-- login with common password (leave blank if not required) -->
+     <item id="loginPassword"></item>
+    <item id="partNameRequired">true</item>
+      <!-- URL to individual login script(leave blank if not required) -->
+     <item id="loginUrl"></item>
+     <!-- request mode (post|get) -->
+     <item id="loginUrlMethod"></item>
+
+     <item id="setConstantCardHeight">false</item>
+     <item id="constantCardHeight">150</item>
+     <item id="setConstantCardWidth">false</item>
+     <item id="constantCardWidth">200</item>
+     <!-- activate/deactivate optional steps (true|false) -->
+     <item id="showStep3">true</item>
+     <item id="showStep4">true</item>
+     <item id="showStep5">true</item>
+
+     <!-- HtmlQ only: disable the in-window back button -->
+     <item id="disableBackButton">true</item>
+
+     <!-- define form elements for step5; only displayed if showStep5 is true (delete tags if not required) -->
+     <!-- add label: <label>[STRING]</label> -->
+     <!-- add note: <note>[STRING]</note> -->
+     <!-- add input-field: <input type="[text|textarea|radio|select|checkbox|rating2|rating5|rating10]">[VALUE]</input> -->
+     <!-- optional attributes: bg, id, maxlength, restricted, required, scale  -->
+     <item id="form">
+    
+        <label>Wat is uw geslacht?</label>
+        <input required="true" type="radio">Man;Vrouw</input>
+
+        <label>Wat is uw geboortejaar?</label>
+        <input required="true" type="text" maxlength="4" restricted="0-9"></input>
+
+        <label>Welke werksituatie is het meeste op u van toepassing?</label>
+        <input type="radio" required="true">Werkzaam;Werkloos of werkzoekend of bijstand;Gepensioneerd of VUT;Studerend of schoolgaand;Arbeidsongeschikt;Vrijwilligerswerk;Huisvrouw of Huisman of Anders</input>
+
+        <label>Wat is uw hoogst behaalde diploma?</label>
+        <input required="true" type="radio">Geen onderwijs;Basisonderwijs;vmbo;De eerste 3 leerjaren van havo/vwo;Assistentenopleiding (mbo-1);Bovenbouw van havo of vwo;Basisberoepsopleiding (mbo-2);Vakopleiding (mbo-3);Middenkader- en specialistenopleiding (mbo-4);hbo (bachelor/master);wo (bachelor/master)</input>
+
+        <label>Wat is uw persoonlijk netto maandinkomen {br} (Reken mee, indien van toepassing: netto-inkomsten uit arbeid; netto-vervangingsinkomens (pensioen, werkloosheidsuitkering, etc.); bijkomende netto-inkomens (bijv. huuropbrengsten); alimentatiegeld. Reken niet mee: vakantiegeld, eindejaarspremie en kindergeld)</label>
+        <input required="True" type="radio">0-1.800 euro;1.800-3.600 euro;Meer dan 3.600 euro</input>
+
+	<label>Hoe zou u in het algemeen uw fysieke gesteldheid en gezondheid omschrijven?</label>
+        <input type="radio" required="true">Slecht;Gemiddeld;Goed;Uitstekend</input>	
+
+	<label>Bent u in het bezit van een auto?</label>
+        <input type="radio" required="true">Ja;Nee</input>	
+
+       	<label>Bent u in het bezit van een fiets?</label>
+        <input type="radio" required="true">Ja;Nee</input>	
+
+	<label>Wat is uw ervaren reistijd tot de dichtstbijzijnde halte of station?</label>
+        <input type="radio" required="true">0-5 minuten;5-10 minuten; Meer dan 10 minuten</input>	
+
+       <label>Wat is uw viercijferige postcode?</label>
+        <input required="true" type="text" maxlength="4" restricted="0-9"></input>
+
+       	<label>Heeft u een migratieachtergrond?</label>
+        <input type="radio" required="true">Ja, één of beide ouders hebben een niet-Nederlandse afkomst;Nee, beide ouders hebben een Nederlandse afkomst</input>
+
+     </item>
+
+     <!-- URL for data transmission via POST/GET (leave blank if not required) -->
+     <item id="submitUrl">exe.php?do=save</item>
+  
+     <!-- request mode (post|get|firebase) -->
+     <item id="submitUrlMethod">firebase</item>
+  
+     <!-- data transmission via email, user must have an e-mail programm like Outlook (leave blank if not required) -->
+     <item id="submitMail">yourdomain.com</item>
+   </config>
